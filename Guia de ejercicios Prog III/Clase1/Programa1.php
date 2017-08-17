@@ -3,20 +3,16 @@ Confeccionar un programa que sume todos los números enteros desde 1 mientras la
 Mostrar los números sumados y al finalizar el proceso indicar cuantos números se sumaron.-->
 <?php
 
-class SumarNumeros{
-    static function SumarNumerosFunction(){
-        $sumador = 0;
-        $contador = 0;
-        for($i=0; $i < 1000; $i++){
-            $sumador +=$i;
-            $contador ++;    
-        }
-        echo "Suma de numeros: ".$sumador;
-        echo "</br>";
-        echo "Cantidad de numeros sumados: ".$contador;
+    $sumador = 0;
+    $contador = 0;
+    for($i=0; $i < 1000; $i++){
+        $sumador +=$i;
+        $contador ++;    
     }
-}
-    
-
+    echo "<font color='blue'><==Comienzo del Programa1==></font>"."</br>";
+    echo "Suma de numeros: ".$sumador."</br>";
+    echo "Cantidad de numeros sumados: ".$contador."</br>";
+    echo "<font color='blue'><==Fin del Programa1==></font>"."</br>";
+    echo "</br>";
 ?>
 
