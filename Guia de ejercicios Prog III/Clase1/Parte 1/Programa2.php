@@ -9,8 +9,9 @@ Otoño	    21 de marzo
 Invierno	21 de junio-->
 
 <?php
+    date_default_timezone_set('America/Argentina/Buenos_Aires'); 
     $horaActual = time();
-    $fechaActual =  new DateTime(date("d-m-y", $horaActual));
+    $fechaActual =  new DateTime(date("d-m-o", $horaActual));
     $estacionActual = "";
     $comienzoPrimavera =  new DateTime("21-09-2017");
     $comienzoVerano = new DateTime("21-12-2017");
@@ -22,7 +23,6 @@ Invierno	21 de junio-->
     echo date("m-d-y", $horaActual)."</br>";
     echo date(DATE_RFC2822, $horaActual)."</br>";
     echo "Estacion actual: ";
-
     if($fechaActual > $comienzoPrimavera && $fechaActual < $comienzoVerano){
         echo "Primavera";
     }
@@ -35,5 +35,6 @@ Invierno	21 de junio-->
     if($fechaActual > $comienzoInvierno && $fechaActual < $comienzoPrimavera){
         echo "Invierno";
     }
+
     echo "</br>"."<font color='blue'><==Fin del Programa2==></font>"."</br>";
 ?>

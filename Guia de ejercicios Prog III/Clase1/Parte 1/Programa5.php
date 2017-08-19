@@ -3,15 +3,14 @@ Realizar un programa que en base al valor numérico de una variable $num ,
 pueda mostrarse por pantalla, el nombre del número que tenga dentro escrito con palabras, 
 para los números entre el 20 y el 60.  Por e jemplo, si $num = 43 debe mostrarse por pantalla “cuarenta y tres”.-->
 
-<?php
+    <?php
 
 $num = 43;
 echo "</br>"."<font color='blue'><==Comienzo del Programa5==></font>"."</br>";
 echo ("Numero a convertir: ".$num);
 echo ("</br");
-echo ("Numero convertido a letras: ".convertirNumeroALetras($num));
-echo ("</br");
-echo "<font color='blue'><==Fin del Programa5==></font>"."</br>";
+echo ("Numero convertido a letras: ".convertirNumeroALetras($num)."</br>");
+echo "</br>"."<font color='blue'><==Fin del Programa5==></font>"."</br>";
 echo ("</br");
 
 function convertirNumeroALetras($num){
