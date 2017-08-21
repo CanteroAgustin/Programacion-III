@@ -38,5 +38,5 @@ while($i < count($impares)){
     echo "Elemento ".$contImpares.": ".$impares[$i]."</br>";
     $i++;
 }
-echo "<font color='blue'><==Fin del Programa6==></font>"."</br>";
+echo "<font color='blue'><==Fin del Programa7==></font>"."</br>";
 ?>
