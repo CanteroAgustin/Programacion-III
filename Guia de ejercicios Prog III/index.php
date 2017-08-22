@@ -8,5 +8,6 @@ include_once "Clase1/Parte 2/Programa6.php";
 include_once "Clase1/Parte 2/Programa7.php";
 include_once "Clase1/Parte 2/Programa8.php";
 include_once "Clase1/Parte 2/Programa9.php";
+include_once "Clase1/Parte 2/Programa10.php";
 
 ?>|
