@@ -1,0 +1,10 @@
+div {float: left; }
+#estacionados {padding-left: 40px}
+#facturados {padding-left: 40px}
+/*#botones {padding-right: 900px; margin-top: 30px}
+button {width: 80px; height: 30px ;margin-left: 40px; background-color: blue; color: white}
+#input {padding-left: 40px; padding-right: 780px; margin-top: 40px}*/
+#vehiculos {padding-right: 1000px; margin-top: 280px}
+#input {padding-left: 40px; padding-right: 780px; margin-top: 40px}
+button {width: 80px; height: 30px ;margin-left: 40px; margin-top: 10px; background-color: blue; color: white}
+label {margin-left: 40px;}
